@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Cormorant Garamond", "serif";
+
+}
+body{
+    background: #fff8f0;
+    width: 100%;
+}
+.page{
+    margin:auto;
+    width:70%;
+}
+
+.main{
+    background: rgba(245, 245, 245, 0.94);
+    position: relative;
+
+}
+.background{
+    margin-top:25px;
+    background: url("image00202.jpeg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 640px;
+    border-radius: 10px;
+}
+.main h2:first-child{
+    position: relative;
+    top:50px;
+    left:250px;
+    font-size:30px;
+    color: white;
+    text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.6);
+}
+.main h2:nth-child(2){
+    position: relative;
+    top:65px;
+    left:400px;
+    font-size:30px;
+    color: white;
+    text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.6);
+}
+.main h1{
+    font-size: 40px;
+    position: absolute;
+    bottom:30px;
+    right:200px;
+    color:white;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+.footer{
+    margin-top:15px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer div{
+    flex:1;
+    max-width:33%
+
+}
+.footer a{
+    width:90%;
+    height:300px;
+    font-size: 21px;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-top:5px;
+}
+.footer div a:hover{
+    color: #673ac1;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15)
+}
+.footer .ita a{
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    color: #2a8bea;
+    background: url("ita.jpeg") no-repeat;
+    background-size: cover;
+    background-position: center 35px;
+}
+.footer .paris a{
+    display: inline-block;
+    text-decoration: none;
+    color: #2a8bea;
+    text-align: center;
+    background: url("paris.JPG") no-repeat;
+    background-size: cover;
+    background-position: center 35px;
+}
+.footer .corfu a{
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    color: #2a8bea;
+    background: url("corfu.jpeg") no-repeat;
+    background-size: cover;
+    background-position: center 35px;
+}
